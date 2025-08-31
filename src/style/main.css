@@ -73,7 +73,7 @@
 /* Fim das animacoes */
 
 .curriculo{
-    /* border: 3px solid wheat; */
+    border: 3px solid wheat;
     display: flex;
     text-align: center;
     justify-content: center;
