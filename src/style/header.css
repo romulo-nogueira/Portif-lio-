@@ -1,0 +1,72 @@
+/* 
+font-family: "Inter", sans-serif;
+font-family: "Roboto Serif", serif;
+font-family: "Open Sans", sans-serif;
+font-family: "Lato", sans-serif;
+font-family: "Montserrat", sans-serif;
+font-family: "Playfair Display SC", serif;
+font-family: "JetBrains Mono", monospace;
+ */
+
+
+.header-container{
+    /* width: 100vw; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 3px solid yellow; */
+    margin-top: 10px;
+}
+
+.logo{
+    /* border: 3px solid blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 300px; */
+    gap: 5px;
+}
+
+.logo img{
+    width: 3rem;
+    border-radius: 50%;
+    /* border: 3px solid red; */
+    background-color: #7B4AE2   ;
+    color: #7B4AE2;
+
+}
+
+.logo h2{
+    /* border: 2px solid green; */
+    font-size: 1.5rem;
+    font-family: "Playfair Display SC", serif;
+    font-weight: 300;
+    margin-bottom: 5px;
+    color: #7B4AE2;
+    
+}
+
+/* .header-navegacao{
+    border: 3px solid blue;
+
+} */
+
+.header-navegacao ul{
+    display: flex;
+    justify-content: space-around;
+    width: 50vw;
+    list-style: none;
+}
+
+.header-navegacao ul li a{
+        
+    font-size: 1.4rem;
+    font-weight: 400;
+    text-decoration: none;
+    color: #7B4AE2;
+    
+}
+
+.header-navegacao a:hover{
+    color: orange;
+}
